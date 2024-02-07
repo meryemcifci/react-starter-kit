@@ -24,7 +24,6 @@ import { Button, Tabs, Tab } from 'react-bootstrap';
             </Tab>
         </Tabs>
     </div>
-   
  )
 }
 export default Bootstrap

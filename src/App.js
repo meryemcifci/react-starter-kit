@@ -3,7 +3,11 @@ import logo from "./logo.svg"
 import Test from "./Test"
 import styles from './App.module.css'
 import { Title } from "./Components";
+import Tailwind from "./Tailwind";
 import Bootstrap from "./Bootstrap";
+
+
+import "./Tailwind.css";
 function App() {
 
   useEffect( () => {
@@ -28,6 +32,7 @@ function App() {
       </>
       )}
       <Bootstrap/>
+      <Tailwind/>
     </div>
   );
 }
